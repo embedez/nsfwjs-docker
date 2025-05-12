@@ -1,0 +1,6 @@
+services:
+  nsfwjs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nsfwjs
